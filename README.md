@@ -1,1 +1,4 @@
-# c-primer-practice
+# cpp-primer-practice
+
+
+环境： mac - xcode；
