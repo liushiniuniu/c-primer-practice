@@ -8,8 +8,29 @@
 
 #include <iostream>
 
+int demo()
+{
+    int currVal = 0, val = 0;
+    
+    if (std::cin >> currVal) {
+        int cnt = 1;
+        while(std::cin >> val) {
+            if (val == currVal) {
+                ++cnt;
+            } else {
+                std::cout << currVal << "ocurs" << cnt << "times" <<std::endl;
+                currVal = val;
+                cnt = 1;
+            }
+        }
+        
+        std::cout << currVal << "ocurs" << cnt << "times" <<std::endl;
+    }
+    
+    return 0;
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    demo();
     return 0;
 }
