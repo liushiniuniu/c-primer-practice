@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		04893FEC2625CB7900AFA8EB /* 1-5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04893FEF2625CB7900AFA8EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04893FF62625CBEF00AFA8EB /* Sales_item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sales_item.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				04893FEF2625CB7900AFA8EB /* main.cpp */,
+				04893FF62625CBEF00AFA8EB /* Sales_item.h */,
 			);
 			path = "1-5";
 			sourceTree = "<group>";
@@ -238,6 +240,7 @@
 		04893FF42625CB7900AFA8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K22ZB6KYY;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +251,7 @@
 		04893FF52625CB7900AFA8EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K22ZB6KYY;
 				ENABLE_HARDENED_RUNTIME = YES;

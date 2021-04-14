@@ -7,6 +7,8 @@
 //
 
 #include <iostream>
+#include "Sales_item.h"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
